@@ -1,0 +1,41 @@
+body {
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+span {
+  cursor: pointer;
+}
+
+.bar {
+  height: 10px;
+  background: #334155;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+#strengthBar {
+  height: 100%;
+  width: 0%;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+p {
+  font-size: 12px;
+  color: #cbd5f5;
+}
